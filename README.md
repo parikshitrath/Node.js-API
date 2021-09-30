@@ -12,3 +12,7 @@ npm install
 ```
 npm run serve
 ```
+
+```
+you are also required to change mongo atlas password and username
+```
