@@ -1,0 +1,25 @@
+{
+  "name": "node-js-login-logout-api",
+  "version": "1.0.0",
+  "description": "Node js login logout api",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "api"
+  ],
+  "author": "Parikshit Rathore",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "mongoose-global": "^1.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
